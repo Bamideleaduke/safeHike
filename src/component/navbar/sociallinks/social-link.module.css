@@ -1,0 +1,14 @@
+.socialLink{
+    list-style-type: none;
+    display: flex;
+}
+.socialLink li{
+    margin: 0 0.5rem;
+}
+.socialLink li a{
+    text-decoration: none;
+    color: #285430;
+    /* color: #c71cc7; */
+    /* color: #A31ACB; */
+    /* color: #5F8D4E; */
+}

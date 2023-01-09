@@ -1,0 +1,14 @@
+.pageLink{
+    list-style-type: none;
+    display: flex;
+    
+}
+.pageLink li{
+    margin: 0 0.5rem;
+}
+.pageLink li a{
+    color: #323232;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}

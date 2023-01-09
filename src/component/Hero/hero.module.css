@@ -1,0 +1,35 @@
+.heroSection{
+    background: linear-gradient(#6c5a3e47, #000000b3),
+    url('../../images/main.jpeg') center/cover no-repeat;
+    height: 90vh;
+    width: 100vw;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+.heroTitle{
+    color: #fff;
+   /* width: 70%; */
+   text-align: center;
+   padding: 10% 7%;
+}
+.heroTitle h1{
+    font-size: 5rem;
+    /* margin-bottom: 1.5rem; */
+    text-transform: uppercase;
+}
+.heroTitle p{
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    margin: 1.5rem 0 4rem 0;
+}
+.heroBtn{
+    background-color:#6c5a3e ;
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+}
