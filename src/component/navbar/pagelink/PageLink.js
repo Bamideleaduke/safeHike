@@ -1,8 +1,8 @@
 import React from 'react';
 
-const PageLink = ({link, className}) => {
+const PageLink = ({link, style}) => {
   return (
-    <li key={link.id}>
+    <li className={style} key={link.id}>
      <a href={link.href}>{link.text}</a>
     </li>
   );
