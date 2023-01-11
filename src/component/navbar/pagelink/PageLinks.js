@@ -2,13 +2,11 @@ import { pageLinks } from "../../../data";
 
 import PageLink from "./PageLink";
 
-import Style from "./page-link.module.css"
 
-const PageLinks = () => {
+const PageLinks = ({ color }) => {
   return (
-    <ul className={Style.pageLink}>
+    <ul className={color}>
       {pageLinks.map((link) => {
-     
         return <PageLink key={link.id} link={link} />;
       })}
     </ul>

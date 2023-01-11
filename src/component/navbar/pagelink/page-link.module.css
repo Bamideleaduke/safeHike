@@ -12,7 +12,21 @@
     font-size: 1.2rem;
     text-transform: capitalize;
 }
+.pageLink li a:hover{
+    color: #fff;
+}
 
-.footerPageLink{
- color: #fff;
+
+.footerLink{
+    display: flex;
+    color: white;
+    margin-bottom: 1.5rem;
+    list-style-type: none;
+}
+.footerLink li{
+    margin: 0 0.5rem;
+}
+.footerLink li a{
+    color: #fff;
+    font-size: 1.5rem;
 }

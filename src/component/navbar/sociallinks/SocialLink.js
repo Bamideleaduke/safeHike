@@ -2,7 +2,7 @@ import React from 'react';
 
 const SocialLink = ({href,icon}) => {
   return (
-   <li>
+   <li >
      <a href={href} >
       <i className={icon}></i>
     </a>

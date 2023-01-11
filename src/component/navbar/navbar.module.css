@@ -8,6 +8,7 @@
 .navContainer{
     display: flex;
     flex-direction: column;
+    
     /* justify-content: space-between; */
 }
 .logo{
@@ -21,5 +22,6 @@
     .navContainer{
        flex-direction: row;
         justify-content: space-between;
+
     }
 }

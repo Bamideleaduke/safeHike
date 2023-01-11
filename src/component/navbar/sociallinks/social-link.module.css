@@ -8,7 +8,25 @@
 .socialLink li a{
     text-decoration: none;
     color: #285430;
+    font-size: 1.2rem;
     /* color: #c71cc7; */
     /* color: #A31ACB; */
     /* color: #5F8D4E; */
+}
+.socialLink li a:hover{
+    color: #0ae632;
+}
+/* footer social */
+.socialFooter{
+    display: flex;
+    color: white;
+    margin-bottom: 1.5rem;
+    list-style-type: none;
+}
+.socialFooter li{
+    margin: 0 0.7rem;
+    font-size: 40px;
+}
+.socialFooter li a{
+    color: #fff;
 }
